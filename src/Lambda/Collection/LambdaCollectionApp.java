@@ -62,7 +62,6 @@ public class LambdaCollectionApp {
      ***/
     List<String> list = new ArrayList<>();
     list.addAll(List.of("fajar","johnlennon","Kelyraleora"));
-    
 
     //dengan anonymous class
     list.removeIf(new Predicate<String>() {
